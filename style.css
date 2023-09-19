@@ -1,8 +1,6 @@
 /* Import the chosen Google Font */
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
-
-
 /* Reset some default browser styles */
 body, h1, h2, p, ul, li {
     margin: 0;

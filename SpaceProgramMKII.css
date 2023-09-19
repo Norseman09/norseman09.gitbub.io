@@ -1,0 +1,85 @@
+/* Import the chosen Google Font */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/* Header styles */
+header {
+    background-color: #131d33; /* Darker blue header background color */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #d3a625; /* Gold border */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White link color */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+header nav ul li a:hover {
+    color: #d3a625; /* Gold link color on hover */
+}
+
+/* Reset some default browser styles */
+body, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'MedievalSharp', sans-serif; /* Dungeons & Dragons font */
+    background-color: #0e182a; /* Dark blue background color */
+    color: #ffffff; /* White text color */
+    background-image: linear-gradient(90deg, #0e182a 0%, #2eacd4 100%); /* Background gradient */
+}
+
+/* Table styles */
+.table2, .table3 {
+    background-image: linear-gradient(#0e182a 0%, #2eacd4 100%);
+    font-family: 'MedievalSharp', sans-serif; /* Dungeons & Dragons font */
+    font-size: 18px;
+    border: 2px solid #d3a625; /* Gold border */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.table3 {
+    width: 70%;
+}
+
+/* Button styles */
+.button, button {
+    font-family: 'MedievalSharp', sans-serif; /* Dungeons & Dragons font */
+    background-color: #131d33; /* Dark blue button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 12px;
+    width: 150px;
+    height: 30px;
+    font-display: 'MedievalSharp';
+    font-size: medium;
+    font-style: italic;
+    border: 2px solid grey; /* Grey border */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover, button:hover {
+    background-color: #0e182a; /* Darker blue on hover */
+}
+
+/* Image styles */
+img {
+    border: 5px solid grey;
+}
