@@ -1,14 +1,8 @@
 /* Import the chosen Google Font */
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
-/* Define the custom font */
-@font-face {
-    font-family: 'MedievalSharp'; /* Font family name for your custom font */
-    src: url('path_to_your_font.woff2') format('woff2'), /* Update the path and format */
-         url('path_to_your_font.woff') format('woff'); /* Update the path and format */
-    font-weight: normal;
-    font-style: normal;
-}
+
+
 /* Reset some default browser styles */
 body, h1, h2, p, ul, li {
     margin: 0;
